@@ -1,0 +1,970 @@
+/* Import fonts from Google fonts */
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,500italic,600,600italic,700,700italic&display=swap&subset=cyrillic-ext");
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,700,300italic,italic,500italic,700italic&display=swap');
+
+/* Add local fonts */
+
+@font-face {
+	font-family: "Montserrat";
+	src:
+		url("../fonts/Montserrat-Italic.woff2") format("woff2"),
+		url("../fonts/Montserrat-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Montserrat";
+	src:
+		url("../fonts/Montserrat-Medium.woff2") format("woff2"),
+		url("../fonts/Montserrat-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:
+    url("../fonts/Montserrat-MediumItalic.woff2") format("woff2"),
+    url("../fonts/Montserrat-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:
+    url("../fonts/Montserrat-Regular.woff2") format("woff2"),
+    url("../fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src:
+    url("../fonts/Montserrat-SemiBold.woff2") format("woff2"),
+    url("../fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+	font-size: 18px;
+  font-family: 'Montserrat';
+	font-weight: 500;
+  line-height: 1;
+}
+
+a {
+	color: #6495ed;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#0000ff;
+}
+
+strong {
+	color:#8a2be2;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	text-decoration: underline;
+	text-shadow: 3px 3px 4px #000;
+	text-transform: uppercase;
+	line-height: 1.5;
+  letter-spacing: 1.5px;
+}
+
+i {
+  color:#b1fc67;
+}
+
+.about__title {
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #ff0000;
+  text-shadow: 3px 3px 5px #000;
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 15px;
+}
+
+.nav__link,
+.nav__link_second,
+.nav__link_third {
+  font-size: 20px;
+  font-family: "poppins", sans-serif;
+  font-weight: 500;
+  color: #ffa500;
+  display: block;
+  text-align: center;
+}
+
+.nav__link_second {
+  color:#7fff00;
+}
+
+.nav__link_third {
+  color:#ff1493;
+}
+
+.header__image img {
+  display: block;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+.about-name__text {
+  text-indent: 50px;
+	color: #808080;
+}
+
+.about-name__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #ffd700;
+	color:#ff1493;
+	line-height: 1.5;
+}
+
+.about-geography__text {
+	color: #8a2be2;
+}
+
+.about-area__text {
+	color: #b8860b;
+}
+
+.about-people__text {
+	color:#61be9f;
+	font-style: italic;
+}
+
+.about-cities__text {
+	color:#a52a2a;
+}
+
+.about-history__text {
+  text-indent: 50px;
+	color:#ff1493;
+}
+
+.about-history__text strong {
+	font-family: 'Open Sans', sans-serif;
+	color: #228b22;
+	text-shadow: 2px 2px 3px #ffff00;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.about-history__text span {
+	color:#8fcd51;
+}
+
+.about-history__text span ~ span {
+	color:#006400;
+}
+
+.about-history__text span ~ span ~ span{
+	color:#0000ff;
+}
+
+.about-history__text a ~ a {
+	color:#8a2be2;
+	font-style: italic;
+}
+
+.about-history__text a ~ a:hover {
+  color: #0000ff;
+}
+
+.about-history__text a ~ a ~ a {
+	color:#b8860b;
+}
+
+.about-history__text a ~ a ~ a:hover {
+  color: #0000ff;
+}
+
+.about-history__text a ~ a ~ a ~ a {
+	color:#a9a9a9;
+}
+
+.about-history__text a ~ a ~ a ~ a:hover {
+  color: #0000ff;
+}
+
+.about-europe__text {
+	color:#00bfff;
+}
+
+.about-europe__text span {
+	color:#ffd700;
+}
+
+.about-mayor__text {
+	color:#61be9f;
+	font-style: italic;
+}
+
+.about-mayor__text span {
+	color:#00bfff;
+	font-style: normal;
+}
+
+.about-unesco__text {
+	color:#6bc412;
+}
+
+.about-unesco__text a {
+	color:#8a2be2;
+}
+
+.about-unesco__text a:hover {
+  color: #0000ff;
+}
+
+.about-unesco__text span {
+	color: #ff8c00;
+}
+
+.about-city__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color:#6bc412;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.about-city__text {
+  text-indent: 50px;
+	color: #808080;
+}
+
+.about-city__text a {
+	color: #a52a2a;
+}
+
+.about-city__text a:hover {
+  color: #0000ff;
+}
+
+.about-city__text a ~ a {
+	color: #228b22;
+	font-style: italic;
+}
+
+.about-city__text a ~ a:hover {
+  color: #0000ff;
+}
+.about-city__text a ~ a ~ a {
+	color: #87ceeb;
+	font-style: italic;
+}
+
+.about-city__text a ~ a ~ a:hover {
+  color: #0000ff;
+}
+
+.about-city__text span {
+	color: #ffd700;
+}
+
+.about-city__text span ~ span {
+  color: #ff1493;
+}
+
+.city-name__text {
+	color: #029ccf;
+}
+
+.city-name__text i {
+  color: #ff8c00;
+}
+
+.city-name__text q {
+  color: #ff0000;
+}
+
+.history__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color: #da70d6;
+  margin-bottom: 15px;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+}
+
+.history__text {
+	color:#1e90ff;
+  text-indent: 50px;
+}
+
+.history__text strong {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 3px #0000ff;
+  color: #ff8c00;
+  line-height: 1.5;
+}
+
+.history__text span {
+	color:#61be9f;
+	font-style: normal;
+}
+
+.history__text span ~ span {
+	color:#0000ff;
+	font-style: normal;
+}
+
+.history__text span ~ span ~ span {
+	color:#6bc412;
+	font-style: normal;
+}
+
+.history__text a {
+  color: darkcyan;
+}
+
+.history__text a:hover {
+  color: #0000ff;
+}
+
+.history__text a ~ a {
+  color: #8b0000;
+}
+
+.history__text a ~ a:hover {
+  color: #0000ff;
+}
+
+.city-history__text {
+	color:#ff1493;
+}
+
+.city-history__text span{
+	color:#228b22;
+}
+
+.city-history__text span ~ span {
+	color:#00bfff;
+}
+
+.city-history__text a {
+	color: #9932cc;
+}
+
+.city-history__text a:hover {
+  color: #0000ff;
+}
+
+.city-history__text a ~ a {
+	color:#ffd700;
+}
+
+.city-history__text a ~ a:hover {
+  color: #0000ff;
+}
+
+.history-second__text {
+	color:#61be9f;
+}
+
+.history-second__text a {
+	color:#00bfff;
+}
+
+.history-second__text a:hover {
+  color: #0000ff;
+}
+
+.history-second__text a ~ a {
+	color:#adff2f;
+}
+
+.history-second__text a ~ a:hover {
+  color: #0000ff;
+}
+
+.history-second__text span {
+	color:#ff8c00;
+}
+
+.history-second__text span ~ span {
+	color:#006400;
+}
+
+.geography__title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color: #ff8c00;
+  margin-bottom: 15px;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+}
+
+.geography__text {
+  color:#8a2be2;
+  text-indent: 50px;
+}
+
+.geography__text strong {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 2px 2px 3px #00bfff;
+  color: #000;
+  line-height: 1.5;
+}
+
+.geography__text a {
+  color:#ff1493;
+}
+
+.geography__text a:hover {
+  color: #0000ff;
+}
+
+.geography__text a ~ a {
+	color:#ffa500;
+}
+
+.geography__text a ~ a:hover {
+  color: #0000ff;
+}
+
+.geography__text i {
+	color: #ffff00;
+}
+
+.geography__text i ~ i {
+	color: #008000;
+}
+
+.geography__text span {
+	color: #00bfff;
+}
+
+.geography__text span ~ span {
+	color: #8b0000;
+}
+.geography-time__text {
+	color:#6bc412;
+	font-style: italic;
+}
+
+.geography-north__text {
+	color: #808080;
+}
+
+.geography-area__text {
+	color:#d2691e;
+}
+
+.geography-area__text a {
+	color:#ff1493;
+}
+
+.geography-area__text a:hover {
+  color: #0000ff;
+}
+
+.geography-area__text span {
+	color:#ee82ee;
+}
+
+.geography-highway__text {
+	color:#ffd700;
+}
+
+.geography-river__text {
+	color:#00bfff;
+	font-style: italic;
+	text-indent: 50px;
+}
+
+.geography-river__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #0000ff;
+	color:#ff1493;
+	line-height: 1.5;
+	font-style: normal;
+}
+
+.geography-river__text a {
+	color:#8fcd51;
+}
+
+.geography-river__text a:hover {
+  color: #0000ff;
+}
+
+.geography-river__text span {
+	color:#ff0000;
+}
+
+.geography-river__text span ~ span {
+	color:#ffff00;
+}
+
+.geography-river__text span ~ span ~ span {
+	color:#8b0000;
+}
+
+.geography-river__text span ~ span ~ span ~ span {
+	color:#1e90ff;
+}
+
+.geography-river__text i {
+	color:#8a2be2;
+}
+
+.geography-river__text i ~ i {
+	color:#808080;
+}
+
+.geography-river__text i ~ i ~ i {
+	color:#8b0000;
+}
+
+.geography-river__text i ~ i ~ i ~ i {
+	color:#ff8c00;
+}
+
+.geography-river__text i ~ i ~ i ~ i ~ i {
+	color:#ff1493;
+}
+
+.geography-river__text i ~ i ~ i ~ i ~ i ~ i {
+	color:#0000ff;
+}
+
+.geography-river__text i ~ i ~ i ~ i ~ i ~ i ~ i {
+	color:#ffd700;
+}
+
+.geography-river__text i ~ i ~ i ~ i ~ i ~ i ~ i ~ i {
+	color:#d2691e;
+}
+
+
+.geography-church__text {
+	color:#ff0000;
+}
+
+.geography-view__img {
+	display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  width: 800px;
+  height: 571px;
+}
+
+.geography-view__text {
+	color:#8fcd51;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.hydrography__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color:#00bfff;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.hydrography__text {
+	text-indent: 50px;
+	color:#0000ff;
+}
+
+.hydrography__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #006400;
+	color:#b1fc67;
+	line-height: 1.5;
+}
+
+.hydrography__text span {
+	color:#ff7f50;
+}
+
+.hydrography__text a {
+	color:#ee82ee;
+}
+
+.hydrography__text a:hover {
+	color: #0000ff;
+}
+
+.hydrography-city__text {
+	color:#ff0000;
+}
+
+.hydrography-city__text span {
+	color:#228b22;
+}
+
+.hydrography-city__text a {
+	color:#00bfff;
+}
+
+.hydrography-city__text a:hover {
+	color: #0000ff;
+}
+
+.hydrography-city__text a ~ a {
+	color:#b8860b;
+}
+
+.hydrography-city__text a ~ a:hover {
+	color: #0000ff;
+}
+
+.hydrography-city__text i {
+	color:#61be9f;
+}
+
+.hydrography-city__text i ~ i {
+	color:#6495ed;
+}
+
+.hydrography-river__text {
+	color:#6bc412;
+}
+
+.hydrography-river__text span {
+	color:#006400;
+}
+
+.hydrography-river__text i {
+	color:#ffff00;
+}
+
+.hydrography-river__text i ~ i {
+	color:#ffa500;
+}
+
+.hydrography__img {
+	display: block;
+  margin: 20px auto;
+  border-radius: 20px;
+  width: 800px;
+  height: 300px;
+}
+
+.infrastructure__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color:#228b22;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.infrastructure__text {
+	text-indent: 50px;
+	color:#ee82ee;
+}
+
+.infrastructure__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #000;
+	color:#00ffff;
+	line-height: 1.5;
+}
+
+.infrastructure__text span {
+	color:#7fff00;
+}
+
+.infrastructure__text a {
+	color:#8b0000;
+}
+
+.infrastructure__text a:hover {
+	color: #0000ff;
+}
+
+.culture__title {
+	font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 32px;
+	color:#b8860b;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.culture__text {
+	text-indent: 50px;
+	color:#ff1493;
+}
+
+.culture__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #ff0000;
+	color:#8a2be2;
+	line-height: 1.5;
+}
+
+.culture-city__text {
+	text-indent: 50px;
+	color:#808080;
+}
+
+.culture-city__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #ffd700;
+	color:#ff1493;
+	line-height: 1.5;
+}
+
+.culture-city__text a {
+	color:#8a2be2;
+}
+
+.culture-city__text a:hover {
+	color: #0000ff;
+}
+
+.culture-sights__title {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 26px;
+	color:#6495ed;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+
+.culture-sights__list {
+	color:#008b8b;
+}
+
+.culture-sights__list-item {
+	color:#ff1493;
+}
+
+.sport__title {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 32px;
+	color:#ffa500;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.sport__text {
+	text-indent: 50px;
+	color:#006400;
+}
+
+.sport__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #8b008b;
+	color:#ee82ee;
+	line-height: 1.5;
+}
+
+.sport__text a {
+	color:#ffa500;
+}
+
+.sport__text a:hover {
+	color: #0000ff;
+}
+
+.sport__text a ~ a {
+	color:#adff2f;
+}
+
+.sport__text a ~ a:hover {
+	color: #0000ff;
+}
+
+.sport__text span {
+	color:#ffff00;
+}
+
+.sport-europe__text {
+	color:#1e90ff;
+}
+
+.sport-europe__text a {
+	color:#6bc412;
+}
+
+.sport-europe__text a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text a ~ a {
+	color:#0000ff;
+}
+
+.sport-europe__text a ~ a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text i > a {
+	color:#a52a2a;
+}
+
+.sport-europe__text i > a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text i ~ i > a {
+	color:#61be9f;
+}
+
+.sport-europe__text i ~ i > a:hover {
+	color: #0000ff;
+}
+
+.sport-europe__text span {
+	color:#00bfff;
+}
+
+.sport-europe__text i {
+	color:#808080;
+}
+
+.sport-games__text {
+	text-indent: 50px;
+	color:#ff1493;
+}
+
+.sport-games__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #008000;
+	color:#9acd32;
+	line-height: 1.5;
+}
+
+.sport-games__text a {
+	color:#ff8c00;
+}
+
+.sport-games__text a:hover {
+	color: #0000ff;
+}
+
+.sport-games__text i > a{
+	color:#61be9f;
+}
+
+.sport-games__text i > a:hover {
+	color: #0000ff;
+}
+
+
+.cities__title {
+	font-family: "Montserrat", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 32px;
+	color:#ff0000;
+	text-shadow: 2px 2px 4px #000;
+	text-align: center;
+	text-decoration: underline;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+.cities__text {
+	text-indent: 50px;
+	color:#808080;
+}
+
+.cities__text strong {
+	font-family: 'Open Sans', sans-serif;
+	text-shadow: 2px 2px 3px #ff1493;
+	color:#a52a2a;
+	line-height: 1.5;
+}
+
+.cities__list {
+	color:#6bc412;
+}
+
+.cities__list a {
+	color:#00bfff;
+}
+
+.cities__list a:hover {
+	color: #0000ff;
+}
+
+.cities-book__text {
+	color:#9932cc;
+	font-size: 20px;
+	font-weight: 500;
+	text-shadow: 2px 2px 3px #ff1493;
+	text-decoration: underline;
+	font-style: italic;
+	margin: 10px 0 15px;
+}
+.footer {
+	text-align: center;
+}
+
+.footer span {
+	color:#ff8c00;
+}
+
+.footer > a {
+	font-size: 18px;
+	color:#6bc412;
+	text-decoration: underline;
+}
+
+.footer > a:hover {
+	color: #0000ff;
+}
+
+
+

@@ -1,0 +1,263 @@
+
+body {
+	font-size: 18px;
+}
+
+a {
+	color: #6495ed;
+}
+
+a:hover {
+	text-decoration: underline;
+	color:#0000ff;
+}
+
+strong {
+	color:#8a2be2;
+  font-weight: 700;
+	font-size: 20px;
+}
+
+.block__img {
+  margin: 20px auto;
+  display: block;
+}
+
+.block__title {
+  text-align: center;
+  font-size: 34px;
+  color: #a52a2a;
+  font-weight: 700;
+}
+
+.block p {
+  color: #6495ed;
+}
+
+.block p span {
+  color: #008000;
+}
+
+.town__title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #7fff00;
+}
+
+.town__text {
+  color: #ff7f50;
+}
+
+.town__text span {
+  color: #b8860b;
+}
+
+.town__text span ~ span {
+  color: #008000;
+}
+
+.name h2 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #7222bd;
+}
+
+.name p {
+  color: #808080;
+}
+
+.name p span {
+  color: #ff7f50;
+}
+
+.name p span ~ span {
+  color: #8fd12b;
+}
+
+.history__title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #6495ed;
+}
+
+.history__text {
+  color: #008000;
+}
+
+.history__text span {
+  color: #ffa500;
+}
+
+.history__text + p {
+  color: #ff0000;
+}
+
+#manag1 {
+  display: block;
+  margin: 20px auto;
+}
+
+.management__title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ff7f50;
+}
+
+.management p {
+  color: #ffa500;
+}
+
+.management p span {
+  color: #6495ed;
+}
+
+.management p span ~ span {
+  color: #008b8b;
+}
+
+.management p a {
+  color: darkgray;
+}
+
+.management p a:hover {
+  text-decoration: underline;
+	color:#0000ff;
+}
+
+.management p a ~ a {
+  color: #ff0000;
+}
+
+.management p a ~ a:hover {
+  text-decoration: underline;
+	color:#0000ff;
+}
+
+.education h2 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #77c3fd;
+}
+
+.education p {
+  color: #ff7f50;
+}
+
+ .education p a {
+  color: #008000;
+ }
+
+ .education p a:hover {
+  text-decoration: underline;
+	color:#0000ff;
+ }
+
+.education p ~ p {
+  color: #8fd12b;
+}
+
+.education p ~ p span {
+  color: #a52a2a;
+}
+
+.education p ~ p ~ p {
+  color: #008b8b;
+}
+
+.education p ~ p ~ p ~ p {
+  color: #6495ed;
+}
+
+.education p ~ p ~ p ~ p span {
+  color: #d87093;
+}
+
+.culture {
+  margin-bottom: 15px;
+}
+
+.culture h2 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #008000;
+}
+
+.culture p {
+  color: #b8860b;
+}
+
+.culture p a {
+  color: #7fff00;
+}
+
+.culture p a:hover {
+  text-decoration: underline;
+  color:#0000ff;
+}
+
+.culture p a ~ a {
+  color: #ff7f50;
+}
+
+.culture p a ~ a:hover {
+  text-decoration: underline;
+  color:#0000ff;
+}
+
+.culture p a ~ a ~ a {
+  color: darkgray;
+}
+
+.culture p a ~ a ~ a:hover {
+  text-decoration: underline;
+  color:#0000ff;
+}
+
+.culture p a ~ a ~a ~ a {
+  color: darkcyan;
+}
+
+.culture p a ~ a ~a ~ a:hover {
+  text-decoration: underline;
+  color:#0000ff;
+}
+
+.culture p a ~ a ~a ~ a ~ a {
+  color: #da70d6;
+}
+
+.culture p a ~ a ~a ~ a ~ a:hover {
+  text-decoration: underline;
+  color:#0000ff;
+}
+
+.culture p a ~ a ~a ~ a ~ a ~ a {
+  color: darkkhaki;
+}
+
+.culture p a ~ a ~a ~ a ~ a ~ a:hover {
+  text-decoration: underline;
+  color:#0000ff;
+}
+
+.culture p span {
+  color: #d87093;
+}
+
+.nav {
+  margin-bottom: 15px;
+}
+
+.top {
+  font-size: 20px;
+  color: #008000;
+  display: block;
+  padding-bottom: 15px;
+  text-align: center;
+}
