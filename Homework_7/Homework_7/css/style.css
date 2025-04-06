@@ -1,6 +1,8 @@
 /* Import fonts from Google fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,regular,italic,500,500italic&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,600,700,900,300italic,italic,500italic&display=swap");
+
+/* Add &display=swap to google fonts */
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:regular,italic,500,500italic,600,700&display=swap");
 
@@ -54,22 +56,28 @@ body {
 	width: 65px;
 }
 
-.header,
-.footer {
-	margin: 10px auto 30px;
-}
-
 .header-block,
 .footer-block,
-.background {
+.background,
+.background-list {
 	box-shadow: 5px 4px 10px 3px #6495ed, inset 4px 4px 10px 2px  #ff8c00;
 	border-radius: 30px;
 	padding: 20px 10px;
+	margin: 0px auto 30px;
+}
+
+.background-list {
+	padding: 20px;
 }
 
 .page__title,
 .title,
-.title-2 {
+.title-2,
+.background-list__title,
+.list-background__title,
+.service__title,
+.contacts__title,
+.impact__title {
 	font-family: "Proxima Nova Lt", sans-serif;
 	text-align: center;
 	color: #9a4c4c;
@@ -84,7 +92,12 @@ body {
 }
 
 .title,
-.title-2 {
+.title-2,
+.background-list__title,
+.list-background__title ,
+.service__title,
+.contacts__title,
+.impact__title {
 	font-size: 32px;
 }
 
@@ -293,6 +306,313 @@ body {
 
 .background__content-6-box-7 {
 	background: url('../img/task_1/nature_1.avif') 50% / 500px 300px no-repeat;
+}
+
+.background__content-7-box-1 {
+	background: url("../img/task_1/small_img/small_nature_1.jpg") 
+	rgba(137, 43,226, 0.4) 50% no-repeat;
+}
+
+.background__content-7-box-2 {
+	background: url("../img/task_1/small_img/small_nature_2.jpg") 0% 50% no-repeat, url("../img/task_1/small_img/small_nature_3.webp") 100% 50% no-repeat;
+}
+
+.background__content-7-box-3 {
+	background: url("../img/task_1/small_img/small_nature_1.jpg") 0% 50% no-repeat, url("../img/task_1/small_img/small_nature_2.jpg") 50% no-repeat,
+	url("../img/task_1/small_img/small_nature_3.webp") 100% 50% no-repeat
+	rgba(256, 26, 101, 0.4);
+}
+
+.background__content-7-box-4 {
+	background: url("../img/task_1/small_img/small_nature_1.jpg") 0% 100% / 16% no-repeAT, url("../img/task_1/small_img/small_nature_2.jpg") 28.5% / 30% auto no-repeat, url("../img/task_1/small_img/small_nature_3.webp") 0% 20% / 20% auto no-repeat, url("../img/task_1/small_img/small_nature_4.jpg") 100% 100% / 50% no-repeat rgba(256, 26, 101, 0.4);
+}
+
+.list-background__wrapper {
+	text-align: center;
+}
+
+.list,
+.list-2 {
+	display: inline-block;
+}
+
+.list__item {
+	background: url("../img/icons/list_icon.png") 99% 50% / 35px no-repeat;
+	min-height: 35px;
+	padding: 20px 50px 20px 20px;
+	font-size: 20px;
+	color: #8a2be2;
+	font-weight: 500;
+	text-shadow: 3px 3px 6px #222;
+}
+
+.list-2__item {
+	background: url("../img/icons/list_icon_1.png") 99% 50% / 35px no-repeat,
+	url("../img/icons/list_icon.png") 0% 50% / 35px no-repeat,
+	url("../img/icons/target_icon.png") 35px 50% / 35px no-repeat;
+	min-height: 35px;
+	padding: 20px 60px 20px 85px;
+	text-indent: 40px;
+	font-size: 20px;
+	color: #8a2be2;
+	font-weight: 500;
+	text-shadow: 3px 3px 6px #222;
+}
+
+.service {
+	margin: 0px 0px 30px 0px;
+}
+
+.service__content {
+	min-height: 557px;
+	padding: 0px 0px 30px 180px;
+	border: 1px solid transparent;
+	background: url("../img/task_3/repair_bg.jpg") 50% / cover no-repeat;
+}
+
+.service__group {
+	max-width: 583px;
+	margin: 130px 0px 0px 0px;
+}
+
+.service__title-2 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 56px;
+	text-align: left;
+	color: #fff;
+	margin: 0px 0px 48px 0px;
+}
+
+.service__button {
+	display: inline-block;
+	width: 211px;
+	height: 48px;
+	padding: 12px 0px 12px 28px;
+	text-transform: uppercase;
+	background: #c40b0b url("../img/task_3/button__arrow.png") 100% 50% no-repeat;
+}
+
+.service__button:hover {
+	background: #e30b0b url("../img/task_3/button__arrow.png") 100% 50% no-repeat;
+	transition: background 0.7s ease-in-out;
+}
+
+.service__link {
+	display: inline-block;
+	font-family: "Roboto", sans-serif;
+	font-size: 12px;
+	font-weight: 900;
+	color: #fff;
+	line-height: 24px;
+	text-align: left;
+}
+
+.contacts {
+	background: url("../img/task_4/bg_up.png") 100% 0% / 300px no-repeat,
+	url("../img/task_4/bg_down.png") 100% 207px/ 300px no-repeat,
+	url("../img/task_4/bg_up.png") 0% 207px / 300px no-repeat,
+	url("../img/task_4/bg_down.png") 0% 0% / 300px no-repeat #f5f5f5;
+	font-family: "Roboto", sans-serif;
+	color: #4b4b4b;
+	padding: 10px 0px 20px;
+	margin: 0px 0px 30px 0px;
+}
+
+.content__title {
+	text-align: center;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 22px;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 27px 0px;
+	padding: 10px 0px 0px 0px;
+}
+
+.contacts__address {
+	max-width: 330px;
+	margin: 0 auto;
+}
+
+.contacts__list-item {
+	margin: 0px 0px 16px 0px;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.contacts__list-item * {
+	color: #4b4b4b;
+	min-height: 30px;
+}
+
+.address {
+	background: url("../img/task_4/icons/01_place_ico-bg.png") 0 0 / 16px no-repeat;
+	padding: 0px 0px 0px 32px;
+}
+
+.phone {
+	background: url("../img/task_4/icons/02_smartphone_ico_bg.png") 0 0 / 16px no-repeat;
+	padding: 0px 0px 0px 32px;
+}
+
+.email {
+	background: url("../img/task_4/icons/03_email_ico_bg.png") 0 0 / 16px no-repeat;
+	padding: 0px 0px 0px 32px;
+}
+
+.time {
+	background: url("../img/task_4/icons/04_timer_ico_bg.png") 0 0 / 16px no-repeat;
+	padding: 0px 0px 0px 32px;
+}
+
+.impact {
+	font-family: "Roboto", sans-serif;
+}
+
+.impact__container {
+	background-color: #fff;
+	padding: 50px 0;
+	margin: 0 auto 30px;
+}
+
+.impact__img-wrapper {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.impact__img {
+	margin: 0px 0px -222px 522px;
+}
+
+.impact__content-wrapper {
+	width: 100%;
+	height: 610px;
+	background: url("../img/task_5/blue_bg.png") 50% / cover no-repeat;
+	padding: 90px 0px 0px 0px;
+}
+
+.impact__content {
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.impact__box {
+	background: url("../img/icons/small_logo.png") no-repeat;
+	height: 20px;
+	margin: 0px 0px 40px 0px;
+}
+
+.impact__subtitle {
+	padding: 7px 0px 0px 37px;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	min-height: 20px;
+}
+
+.impact__title-2 {
+	text-align: left;
+	color: #fff;
+	max-width: 412px;
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	margin: 0px 0px 80px 0px;
+}
+
+.impact__icons {
+	max-width: 1050px;
+}
+
+.impact__icon {
+	display: inline-block;
+  width: 230px;
+  margin: 0px 24px 0px 0px;
+  vertical-align: top;
+}
+
+.oil {
+	background: url("../img/task_5/icons/oil.png") no-repeat;
+	min-height: 100px;
+}
+
+.transmission {
+	background: url("../img/task_5/icons/transmission.png") no-repeat;
+	min-height: 100px;
+}
+
+.alignment {
+	background: url("../img/task_5/icons/alignment.png") no-repeat;
+	min-height: 100px;
+}
+
+.engine {
+	background: url("../img/task_5/icons/engine.png") no-repeat;
+	min-height: 100px;
+}
+
+.impact__icon-text {
+	font-size: 36px;
+  font-weight: 900;
+  line-height: 42px;
+  margin: 0px 0px 5px 0px;
+  color: #c40b0b;
+  padding: 0px 0px 0px 86px;
+}
+
+.impact__icon-title {
+	font-size: 16px;
+  font-weight: 900;
+  line-height: 24px;
+  color: #f5f5f5;
+  letter-spacing: 0.15px;
+  padding: 0px 0px 0px 86px;
+}
+
+.appointment__container {
+	max-width: 1020px;
+  margin: -65px auto 30px;
+  background-color: #fff;
+	font-family: "Roboto", sans-serif;
+}
+
+.appointment__title {
+	display: inline-block;
+  max-width: 562px;
+  padding: 43px 0px 0px 48px;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 30px;
+  color: #02133c;
+  vertical-align: middle;
+  margin: 0px 111px 0px 0px;
+}
+
+.appointment__button {
+	display: inline-block;
+	max-width: 212px;
+	vertical-align: top;
+	padding: 12px 52px 12px 19px;
+  font-size: 12px;
+  line-height: 24px;
+  text-transform: uppercase;
+	vertical-align: text-top;
+	color: #fff;
+  margin: 0px 0px 53px 0px;
+	background: #c40b0b url("../img/task_3/button__arrow.png") 100% 50% / 50px  
+	no-repeat;
+}
+
+.appointment__button:hover {
+	background: #e30b0b url("../img/task_3/button__arrow.png") 100% 50% / 50px  
+	no-repeat;
+	transition: background 0.7s ease-in-out;
 }
 
 
